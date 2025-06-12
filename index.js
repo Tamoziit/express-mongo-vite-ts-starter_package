@@ -12,7 +12,7 @@ const projectPath = inputName
     ? path.resolve(process.cwd(), inputName)
     : process.cwd();
 
-const monoRepoTemplate = process.env.MONOREPO_URL;
+const monoRepoTemplate = "https://github.com/Tamoziit/express-mongo-vite-ts-monorepo.git";
 const tempPath = path.join(os.tmpdir(), `temp-monorepo-${Date.now()}`);
 
 console.log("🚀 Creating Project...\n");
