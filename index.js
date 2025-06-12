@@ -26,9 +26,12 @@ try {
     // 2. Ensuring target directory exists
     fs.ensureDirSync(projectPath);
 
-    // 3. Copying everything (except .git) to target directory
+    // 3. Copying everything (except .git & LICENSE) to target directory
     fs.copySync(tempPath, projectPath, {
-        filter: (src) => !src.includes(".git"),
+        filter: (src) => {
+            const basename = path.basename(src);
+            return !src.includes(".git") && basename !== "LICENSE";
+        },
     });
 
     // 4. Cleanup
