@@ -1,6 +1,6 @@
 {
   "name": "express-mongo-vite-ts-starter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Express + MongoDB + Vite + TS starter package",
   "main": "index.js",
   "workspaces": [
