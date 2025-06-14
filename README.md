@@ -12,7 +12,7 @@
 ### Create in a new folder
 
 ```bash
-create-express-mongo-vite-ts my-app
+express-mongo-vite-ts-starter my-app
 ```
 
 Creates:
@@ -27,7 +27,7 @@ current directory/
 ### Create in current directory
 
 ```bash
-create-express-mongo-vite-ts
+express-mongo-vite-ts-starter
 ```
 
 Creates:
