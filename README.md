@@ -2,8 +2,8 @@
 
 ### *A zero-config starter CLI to scaffold a fullstack monorepo with:*
 
-- ⚙️ **Backend**: Node.js + Express + MongoDB + TypeScript + JWT
-- ⚛️ **Frontend**: React + Vite + TypeScript
+- ⚙️ **Backend**: Node.js + Express.js + MongoDB + TypeScript + JWT-Auth
+- ⚛️ **Frontend**: React.js + Vite + TypeScript
 
 ---
 
@@ -44,9 +44,9 @@ current directory/
 
 ```
 my-app/
-├── backend/        # Express + MongoDB + TypeScript API
+├── backend/        # Express.js + MongoDB + TypeScript API for basic user authorization
 │   └── ...
-├── frontend/       # Vite + React + TypeScript App
+├── frontend/       # Vite + React + TypeScript Template App
 │   └── ...
 ├── README.md       # README.md with steps to setup .env & prerequite details
 ```
